@@ -30,7 +30,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - NatMEG:
+  - NatMEG: about-NatMEG.md
     - About: about-NatMEG.md
     - Preparation:
       - Apply electrodes: natmeg/lab/Electrodes-standard-setup.md
