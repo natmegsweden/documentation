@@ -2,9 +2,8 @@ name: ci
 on:
   push:
     branches:
-      # - master 
       - main
-      - dev
+      # - dev
 permissions:
   contents: write
 jobs:
@@ -29,4 +28,4 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install mkdocs-include-dir-to-nav
       - run: pip install mkdocs-macros-plugin
-      - run: mkdocs gh-deploy --force --remote-branch dev
+      - run: mkdocs gh-deploy --force # --remote-branch dev
